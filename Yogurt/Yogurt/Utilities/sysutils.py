@@ -38,6 +38,7 @@ try:
     from freebsd import setproctitle as _setproctitle
     from freebsd import setprogname as _setprogname
 except ImportError:
+    # place here if you have another available setproctitle implementation.
     def _setproctitle(title): pass
     def _setprogname(name): pass
 
