@@ -27,14 +27,14 @@
 # IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 #
-# $Id: setup.py,v 1.1 2003/10/09 17:34:09 perky Exp $
+# $Id$
 #
 
 from distutils.core import setup, Extension
 
 setup (name = "Yogurt",
        version = "0.1",
-       description = "A neat IRC bot that needs no modifiers",
+       description = "A well-being IRC bot. ;-)",
        author = "Hye-Shik Chang",
        author_email = "perky@FreeBSD.org",
        url = "http://yogurt.berlios.de/",
