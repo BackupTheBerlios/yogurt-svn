@@ -1,7 +1,0 @@
-#!/usr/bin/env python
-# $Id: yogurtctl,v 1.1 2003/10/09 17:47:52 perky Exp $
-
-import sys
-from yogurt.script import yogurtctl
-
-yogurtctl.main(sys.argv)
